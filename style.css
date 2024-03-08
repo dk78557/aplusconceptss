@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #ffffff;
+    color: #1b1515;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+}
+.logo img{
+    width: 50px;
+    height: 48px;
+    border-radius: 50px;
+    border-color: rgb(12, 11, 11);
+    padding: 14px;
+}
+
+.signup-login {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.signup-login a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.main ul{
+    display: flex;
+    list-style: none;
+}
+.main ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(19, 15, 15);
+}
+.section1{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.card-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+.card {
+  flex: 0 0 auto;
+  width: 300px;
+  margin-right: 20px;
+  scroll-snap-align: start;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease;
+  background-color: #f9f9f9;
+  margin-bottom: 50px;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 20px;
+}
+.card-content {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.card-content h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+.rating {
+  margin-top: 5px;
+  color:#888;
+}
+
+.knowabout{
+    display: flex;
+}
+.rightside{
+    display: flex;
+    max-height: 150px;
+}
+.downside{
+
+}
